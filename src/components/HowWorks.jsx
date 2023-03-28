@@ -30,7 +30,7 @@ function HowWorks() {
           const orientation = index + 1 === 2 ? "lg:flex-row-reverse" : "";
           return (
             <div className={"flex flex-col lg:flex-row " + orientation}>
-              <div className="flex-1 bg-red-500">
+              <div className="flex-1">
                 <img src={el.img} className="w-full h-full object-cover" />
               </div>
               <div className="flex-1">
