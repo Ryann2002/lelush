@@ -37,3 +37,8 @@ details[open] summary::after{
   background-position:  top 50px left, bottom 50px right, center;
   background-repeat: no-repeat, no-repeat, repeat;
 }
+
+
+.noisy-bg{
+  background: url('assets/noisy.png');
+}

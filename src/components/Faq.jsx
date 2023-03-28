@@ -13,7 +13,7 @@ function Faq() {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
     {
-      question: "Posso escolher ats cores?",
+      question: "Posso escolher as cores?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
     },
