@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-title::after{
+  content: ' ';
+  @apply w-[75%] bg-black h-[1px] absolute bottom-0 left-[50%] -translate-x-[50%]
+}
+
+*{
+  @apply font-playfair
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary{
+  @apply relative
+}
+summary::after{   
+  @apply absolute right-0 top-1/2 bg-no-repeat h-2 w-4 lg:h-4 lg:w-7 bg-contain bg-detailsMarker -translate-y-[50%] content-['']
+}
+
+details[open] summary::after{
+  @apply rotate-180
+}
+
+#gg{
+  background-image:  url('assets/line.png') , url('assets/line.png'), url('assets/noisy.png');
+  background-position:  top 50px left, bottom 50px right, center;
+  background-repeat: no-repeat, no-repeat, repeat;
+}
